@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Left 4k Dead - CheerpJ Applet</title>
+    <script src="https://cjrtnc.leaningtech.com/4.0/loader.js"></script>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 20px;
+        background: #f5f5f5;
+      }
+      h1 {
+        color: #333;
+      }
+      .container {
+        background: white;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        margin-bottom: 20px;
+      }
+      .instructions {
+        background: #f0f8ff;
+        padding: 15px;
+        border-left: 4px solid #0066cc;
+        margin: 20px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Left 4k Dead</h1>
+      <div class="instructions">
+        <p>This Java applet is running through CheerpJ, a Java runtime for browsers.</p>
+        <p>It may take a moment to load. If you experience issues:</p>
+        <ul>
+          <li>Make sure you're using a modern browser (Chrome, Firefox, Edge)</li>
+          <li>Try refreshing the page if the applet doesn't start</li>
+          <li>Allow pop-ups if prompted</li>
+        </ul>
+      </div>
+      <applet
+        archive="G.jar"
+        code="G"
+        height="480"
+        width="480"
+      ></applet>
+    </div>
+    <script>
+      cheerpjInit();
+    </script>
+  </body>
+</html>
